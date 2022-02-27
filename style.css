@@ -1,0 +1,62 @@
+body {
+	background-color: Darkcyan;
+	padding: 40px;
+	margin: 50px;
+}
+h1 {
+	color: blue;
+}
+p {
+	border: 2px solid yellow;
+	margin: auto;
+}
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:active {
+	color: red;
+	background-color: transparent;
+	text-decoration: uderline;
+}
+th, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	border-radius: 10px;
+	text-align:center;
+}
+tr:nth-child(odd) {
+	background-color: cyan;
+}
+td:hover, th:hover {
+	background-color: white;
+}
+.city {
+	background-color: orange;
+	border: 2px solid black;
+}
+
+header {
+	background-color: #666;
+	text-align: center;
+	font-size:30px;
+	padding: 10px;
+	color: white;
+}
+footer {
+	background-color: #666;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
